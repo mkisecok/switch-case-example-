@@ -113,3 +113,7 @@ switch (myColor)
          break;
  }
 
+ divider('Diffrences');
+
+ /* wenn wir einzel variable haetten, waere  switch method schneller als if-else statement.aber besonder für boolean  waere if-else method besser als switch .
+
