@@ -66,3 +66,20 @@ switch (myColor)
          break;
  }
 
+ divider('Fruits');
+
+ const fruits = 'tomato';
+
+ switch (fruits) 
+ {
+    case 'banana':
+    case 'orange':
+    case 'strawberry':
+    case 'apple':
+         console.log(`You have a ${fruits}`);
+        break;
+    default:
+        console.log(`Are you sure is ${fruits} a fruits?`);
+        break;
+ }
+
