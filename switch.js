@@ -83,3 +83,33 @@ switch (myColor)
         break;
  }
 
+ divider('Percentage Complete')
+
+ const percentageComplate = 100;
+ 
+ switch (true) 
+ 
+ {
+    case percentageComplate < 30 :
+         console.log('Still a long way to go');
+         break;
+    case (30 < percentageComplate && percentageComplate < 50):
+        console.log('Slowly getting there');
+         break;
+
+    case (51 < percentageComplate && percentageComplate < 80) :
+        console.log('You can do it');
+        break;
+
+    case ( 81 < percentageComplate && percentageComplate < 99):
+        console.log('This is the last push!');
+        break;
+
+    case percentageComplate == 100:
+        console.log('You are there. Well done!');  
+        break;
+     default:
+         console.log('Invalid wert');
+         break;
+ }
+
