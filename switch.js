@@ -5,21 +5,13 @@ function divider(input)
 
 divider('Color Analyzer');
 
-const myColor = 'yellow';
+const myColor = 'green';
 
 switch (myColor) 
 {
     case 'red':
-        console.log('I m the color of : ', myColor );
-        break;
-
     case 'blue':
-        console.log('I m the color of : ', myColor );
-        break;
-
     case 'green':
-        console.log('I m the color of : ', myColor );
-        break;  
     case 'yellow':
         console.log('I m the color of : ', myColor );
         break;           
@@ -32,8 +24,8 @@ switch (myColor)
 
  divider('Grading');
 
- const myGrade = 4.6;
-const roundedGrade = Math.round(myGrade);
+ const myGrade = 4.1;
+ const roundedGrade = Math.round(myGrade);
 
  switch (roundedGrade) 
  
@@ -68,7 +60,7 @@ const roundedGrade = Math.round(myGrade);
 
  divider('Fruits');
 
- const fruits = 'tomato';
+ const fruits = 'apple';
 
  switch (fruits) 
  {
@@ -85,7 +77,7 @@ const roundedGrade = Math.round(myGrade);
 
  divider('Percentage Complete')
 
- const percentageComplate = 100;
+ const percentageComplate = 50;
  
  switch (true) 
  
@@ -93,15 +85,15 @@ const roundedGrade = Math.round(myGrade);
     case percentageComplate < 30 :
          console.log('Still a long way to go');
          break;
-    case (30 < percentageComplate && percentageComplate < 50):
+    case (percentageComplate >= 30 && percentageComplate < 50):
         console.log('Slowly getting there');
          break;
 
-    case (51 < percentageComplate && percentageComplate < 80) :
+    case (percentageComplate >= 50 && percentageComplate < 80) :
         console.log('You can do it');
         break;
 
-    case ( 81 < percentageComplate && percentageComplate < 99):
+    case (percentageComplate >= 80 && percentageComplate <= 99):
         console.log('This is the last push!');
         break;
 
