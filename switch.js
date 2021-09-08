@@ -32,10 +32,10 @@ switch (myColor)
 
  divider('Grading');
 
- const myGrade = 5;
+ const myGrade = 4.6;
+const roundedGrade = Math.round(myGrade);
 
-
- switch (myGrade) 
+ switch (roundedGrade) 
  
  {
      case 1:
@@ -115,5 +115,5 @@ switch (myColor)
 
  divider('Diffrences');
 
- /* wenn wir einzel variable haetten, waere  switch method schneller als if-else statement.aber besonder für boolean  waere if-else method besser als switch .
+ /* wenn wir einzel variable haetten, waere  switch method schneller als if-else statement.aber besonder für boolean  waere if-else method besser als switch . */
 
